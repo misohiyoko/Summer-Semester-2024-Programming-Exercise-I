@@ -1,0 +1,16 @@
+# ninja log v5
+1	59	7394748654199103	CMakeFiles/CMakeCCompilerId.dir/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c.obj	4eac639315bd1838
+60	186	7394748655439295	CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe	3586f6ae3d0d6b0e
+9	73	7394781020441441	CMakeFiles/he.dir/src/hoge/he.c.obj	6db72ee366b4a3dc
+60	143	7394781741341753	C:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe	b4f76522d61db524
+1	230	7394818515409533	build.ninja	97420c49e6ece5ac
+2	149	7394765144769977	CMakeFiles/print_scanf.dir/src/2024summer/3/print_scanf.c.obj	ca57e27645781301
+3	96	7394772366533122	C:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe	64dbff406cffbe92
+3	60	7394781740547151	CMakeFiles/convC2F.dir/src/2024summer/4/convC2F.c.obj	792598ce5e75b29b
+73	153	7394781021214442	C:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe	1589cb2d684eecf5
+4	68	7394816619347119	CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj	4fbbd3ae289f3394
+68	155	7394816620188420	C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe	b2a6b5a4e9ad7ac1
+3	68	7394818609540004	CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj	4fbbd3ae289f3394
+68	156	7394818610386956	C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe	b2a6b5a4e9ad7ac1
+4	63	7394820373950366	CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj	4fbbd3ae289f3394
+63	138	7394820374642683	C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe	b2a6b5a4e9ad7ac1

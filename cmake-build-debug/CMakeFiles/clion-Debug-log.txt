@@ -1,0 +1,14 @@
+D:\jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/jetbrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\genta\CLionProjects\programing_study -B C:\Users\genta\CLionProjects\programing_study\cmake-build-debug
+C:/Users/genta/CLionProjects/programing_study/src
+-- SOURCE_FILES="C:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.c;C:/Users/genta/CLionProjects/programing_study/src/hoge/he.c"
+-- FILENAME_WE="print_scanf"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/3"
+-- FILENAME_WE="convC2F"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/4"
+-- FILENAME_WE="quadraticFormula"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/5"
+-- FILENAME_WE="he"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/hoge"
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/genta/CLionProjects/programing_study/cmake-build-debug
