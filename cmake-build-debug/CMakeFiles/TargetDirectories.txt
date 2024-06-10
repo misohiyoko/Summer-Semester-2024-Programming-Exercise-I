@@ -1,6 +1,0 @@
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/print_scanf.dir
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/convC2F.dir
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/quadraticFormula.dir
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/he.dir
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/genta/CLionProjects/programing_study/cmake-build-debug/CMakeFiles/rebuild_cache.dir

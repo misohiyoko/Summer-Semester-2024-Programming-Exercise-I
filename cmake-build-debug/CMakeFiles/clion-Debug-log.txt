@@ -1,14 +1,53 @@
-D:\jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/jetbrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\genta\CLionProjects\programing_study -B C:\Users\genta\CLionProjects\programing_study\cmake-build-debug
-C:/Users/genta/CLionProjects/programing_study/src
--- SOURCE_FILES="C:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.c;C:/Users/genta/CLionProjects/programing_study/src/hoge/he.c"
--- FILENAME_WE="print_scanf"
--- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/3"
--- FILENAME_WE="convC2F"
--- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/4"
--- FILENAME_WE="quadraticFormula"
--- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/5"
--- FILENAME_WE="he"
--- DIR="C:/Users/genta/CLionProjects/programing_study/src/hoge"
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/genta/CLionProjects/programing_study/cmake-build-debug
+"C:\Users\genta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\genta\Desktop\Summer-Semester-2024-Programming-Exercise-I -B C:\Users\genta\Desktop\Summer-Semester-2024-Programming-Exercise-I\cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is GNU 13.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe - broken
+CMake Error at C:/Users/genta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/genta/Desktop/Summer-Semester-2024-Programming-Exercise-I/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00ywkb'
+    
+    Run Build Command(s): "C:/Users/genta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/genta/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d349c/fast
+    C:/Users/genta/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d349c.dir\build.make CMakeFiles/cmTC_d349c.dir/build
+    mingw32-make[1]: Entering directory 'C:/Users/genta/Desktop/Summer-Semester-2024-Programming-Exercise-I/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00ywkb'
+    Building C object CMakeFiles/cmTC_d349c.dir/testCCompiler.c.obj
+    C:\arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_d349c.dir\testCCompiler.c.obj -c C:\Users\genta\Desktop\Summer-Semester-2024-Programming-Exercise-I\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-00ywkb\testCCompiler.c
+    Linking C executable cmTC_d349c.exe
+    "C:\Users\genta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d349c.dir\link.txt --verbose=1
+    "C:\Users\genta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d349c.dir/objects.a
+    C:\arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-ar.exe qc CMakeFiles\cmTC_d349c.dir/objects.a @CMakeFiles\cmTC_d349c.dir\objects1.rsp
+    C:\arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_d349c.dir/objects.a -Wl,--no-whole-archive -o cmTC_d349c.exe -Wl,--out-implib,libcmTC_d349c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d349c.dir\linkLibs.rsp
+    C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+    C:/arm-gnu-toolchain-13.2.Rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+    collect2.exe: error: ld returned 1 exit status
+    mingw32-make[1]: *** [CMakeFiles\cmTC_d349c.dir\build.make:100: cmTC_d349c.exe] Error 1
+    mingw32-make[1]: Leaving directory 'C:/Users/genta/Desktop/Summer-Semester-2024-Programming-Exercise-I/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00ywkb'
+    mingw32-make: *** [Makefile:126: cmTC_d349c/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!

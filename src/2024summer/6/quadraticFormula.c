@@ -6,6 +6,13 @@
 #include <stdlib.h>
 #include <math.h>
 
+/**
+ * @brief Solve Quadratic Formula and print
+ * @details To output complex value. Print r + ni
+ * @param argc
+ * @param argv Need three value. ax^2 + bx + c
+ * @return Always 0
+ */
 int main(int argc, char const **argv){
     if(argc < 4){
         return 1;

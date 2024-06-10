@@ -4,6 +4,12 @@
 
 
 #include <stdio.h>
+
+/**
+ * @brief Echo back input value
+ * @details Non number input is undefined. Float value will be rounded.
+ * @return Always 0
+ */
 int main(){
     int i;
     printf("i ? ");
