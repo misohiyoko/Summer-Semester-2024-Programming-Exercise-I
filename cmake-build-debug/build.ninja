@@ -140,6 +140,39 @@ build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticF
   TARGET_PDB = quadraticFormula.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target free_fall
+
+
+#############################################
+# Order-only phony target for free_fall
+
+build cmake_object_order_depends_target_free_fall: phony || CMakeFiles/free_fall.dir
+
+build CMakeFiles/free_fall.dir/src/2024summer/7/free_fall.c.obj: C_COMPILER__free_fall_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.c || cmake_object_order_depends_target_free_fall
+  DEP_FILE = CMakeFiles\free_fall.dir\src\2024summer\7\free_fall.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\free_fall.dir
+  OBJECT_FILE_DIR = CMakeFiles\free_fall.dir\src\2024summer\7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target free_fall
+
+
+#############################################
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\7\free_fall.exe
+
+build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe: C_EXECUTABLE_LINKER__free_fall_Debug CMakeFiles/free_fall.dir/src/2024summer/7/free_fall.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\free_fall.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\7\free_fall.exe
+  TARGET_IMPLIB = libfree_fall.dll.a
+  TARGET_PDB = free_fall.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target he
 
 
@@ -202,6 +235,10 @@ build convC2F: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summ
 
 build convC2F.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe
 
+build free_fall: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe
+
+build free_fall.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe
+
 build he: phony C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
 
 build he.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
@@ -222,7 +259,7 @@ build quadraticFormula.exe: phony C$:/Users/genta/CLionProjects/programing_study
 #############################################
 # Folder: C:/Users/genta/CLionProjects/programing_study/cmake-build-debug
 
-build all: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
+build all: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
 
 # =============================================================================
 # Built-in targets
