@@ -1,16 +1,25 @@
 D:\jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/jetbrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\genta\CLionProjects\programing_study -B C:\Users\genta\CLionProjects\programing_study\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/jetbrains/CLion/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
-CMake Error at D:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE dot)
-Call Stack (most recent call first):
-  D:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
-  D:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake:681 (find_package_handle_standard_args)
-  CMakeLists.txt:9 (find_package)
-
-
--- Configuring incomplete, errors occurred!
+C:/Users/genta/CLionProjects/programing_study/src
+-- SOURCE_FILES="C:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.c;C:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.c"
+-- FILENAME_WE="hello_world"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/1"
+-- FILENAME_WE="printf_variable"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/2"
+-- FILENAME_WE="print_scanf"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/3"
+-- FILENAME_WE="convC2F"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/4"
+-- FILENAME_WE="scope_variables"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/5"
+-- FILENAME_WE="quadraticFormula"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/6"
+-- FILENAME_WE="free_fall"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/2024summer/7"
+CMAKE_C_END
+C:/Users/genta/CLionProjects/programing_study/src
+-- SOURCE_FILES_CXX="C:/Users/genta/CLionProjects/programing_study/src/algo/merge.cpp"
+-- FILENAME_WE="merge"
+-- DIR="C:/Users/genta/CLionProjects/programing_study/src/algo"
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/genta/CLionProjects/programing_study/cmake-build-debug

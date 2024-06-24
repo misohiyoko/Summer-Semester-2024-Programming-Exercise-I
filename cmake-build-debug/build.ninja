@@ -41,6 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/genta/CLionProjects/programing_study/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Order-only phony target for hello_world
+
+build cmake_object_order_depends_target_hello_world: phony || CMakeFiles/hello_world.dir
+
+build CMakeFiles/hello_world.dir/src/2024summer/1/hello_world.c.obj: C_COMPILER__hello_world_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.c || cmake_object_order_depends_target_hello_world
+  DEP_FILE = CMakeFiles\hello_world.dir\src\2024summer\1\hello_world.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hello_world.dir
+  OBJECT_FILE_DIR = CMakeFiles\hello_world.dir\src\2024summer\1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\1\hello_world.exe
+
+build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.exe: C_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello_world.dir/src/2024summer/1/hello_world.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hello_world.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\1\hello_world.exe
+  TARGET_IMPLIB = libhello_world.dll.a
+  TARGET_PDB = hello_world.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target printf_variable
+
+
+#############################################
+# Order-only phony target for printf_variable
+
+build cmake_object_order_depends_target_printf_variable: phony || CMakeFiles/printf_variable.dir
+
+build CMakeFiles/printf_variable.dir/src/2024summer/2/printf_variable.c.obj: C_COMPILER__printf_variable_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.c || cmake_object_order_depends_target_printf_variable
+  DEP_FILE = CMakeFiles\printf_variable.dir\src\2024summer\2\printf_variable.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\printf_variable.dir
+  OBJECT_FILE_DIR = CMakeFiles\printf_variable.dir\src\2024summer\2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target printf_variable
+
+
+#############################################
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\2\printf_variable.exe
+
+build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.exe: C_EXECUTABLE_LINKER__printf_variable_Debug CMakeFiles/printf_variable.dir/src/2024summer/2/printf_variable.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\printf_variable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\2\printf_variable.exe
+  TARGET_IMPLIB = libprintf_variable.dll.a
+  TARGET_PDB = printf_variable.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target print_scanf
 
 
@@ -107,6 +173,39 @@ build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.ex
   TARGET_PDB = convC2F.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target scope_variables
+
+
+#############################################
+# Order-only phony target for scope_variables
+
+build cmake_object_order_depends_target_scope_variables: phony || CMakeFiles/scope_variables.dir
+
+build CMakeFiles/scope_variables.dir/src/2024summer/5/scope_variables.c.obj: C_COMPILER__scope_variables_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.c || cmake_object_order_depends_target_scope_variables
+  DEP_FILE = CMakeFiles\scope_variables.dir\src\2024summer\5\scope_variables.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\scope_variables.dir
+  OBJECT_FILE_DIR = CMakeFiles\scope_variables.dir\src\2024summer\5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scope_variables
+
+
+#############################################
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\5\scope_variables.exe
+
+build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.exe: C_EXECUTABLE_LINKER__scope_variables_Debug CMakeFiles/scope_variables.dir/src/2024summer/5/scope_variables.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\scope_variables.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\5\scope_variables.exe
+  TARGET_IMPLIB = libscope_variables.dll.a
+  TARGET_PDB = scope_variables.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target quadraticFormula
 
 
@@ -115,11 +214,11 @@ build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.ex
 
 build cmake_object_order_depends_target_quadraticFormula: phony || CMakeFiles/quadraticFormula.dir
 
-build CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj: C_COMPILER__quadraticFormula_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.c || cmake_object_order_depends_target_quadraticFormula
-  DEP_FILE = CMakeFiles\quadraticFormula.dir\src\2024summer\5\quadraticFormula.c.obj.d
+build CMakeFiles/quadraticFormula.dir/src/2024summer/6/quadraticFormula.c.obj: C_COMPILER__quadraticFormula_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.c || cmake_object_order_depends_target_quadraticFormula
+  DEP_FILE = CMakeFiles\quadraticFormula.dir\src\2024summer\6\quadraticFormula.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\quadraticFormula.dir
-  OBJECT_FILE_DIR = CMakeFiles\quadraticFormula.dir\src\2024summer\5
+  OBJECT_FILE_DIR = CMakeFiles\quadraticFormula.dir\src\2024summer\6
 
 
 # =============================================================================
@@ -127,15 +226,15 @@ build CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj: C
 
 
 #############################################
-# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\5\quadraticFormula.exe
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\2024summer\6\quadraticFormula.exe
 
-build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe: C_EXECUTABLE_LINKER__quadraticFormula_Debug CMakeFiles/quadraticFormula.dir/src/2024summer/5/quadraticFormula.c.obj
+build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.exe: C_EXECUTABLE_LINKER__quadraticFormula_Debug CMakeFiles/quadraticFormula.dir/src/2024summer/6/quadraticFormula.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\quadraticFormula.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\5\quadraticFormula.exe
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\2024summer\6\quadraticFormula.exe
   TARGET_IMPLIB = libquadraticFormula.dll.a
   TARGET_PDB = quadraticFormula.exe.dbg
 
@@ -173,37 +272,37 @@ build C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.
   TARGET_PDB = free_fall.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target he
+# Object build statements for EXECUTABLE target merge
 
 
 #############################################
-# Order-only phony target for he
+# Order-only phony target for merge
 
-build cmake_object_order_depends_target_he: phony || CMakeFiles/he.dir
+build cmake_object_order_depends_target_merge: phony || CMakeFiles/merge.dir
 
-build CMakeFiles/he.dir/src/hoge/he.c.obj: C_COMPILER__he_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.c || cmake_object_order_depends_target_he
-  DEP_FILE = CMakeFiles\he.dir\src\hoge\he.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\he.dir
-  OBJECT_FILE_DIR = CMakeFiles\he.dir\src\hoge
+build CMakeFiles/merge.dir/src/algo/merge.cpp.obj: CXX_COMPILER__merge_unscanned_Debug C$:/Users/genta/CLionProjects/programing_study/src/algo/merge.cpp || cmake_object_order_depends_target_merge
+  DEP_FILE = CMakeFiles\merge.dir\src\algo\merge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\merge.dir
+  OBJECT_FILE_DIR = CMakeFiles\merge.dir\src\algo
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target he
+# Link build statements for EXECUTABLE target merge
 
 
 #############################################
-# Link the executable C:\Users\genta\CLionProjects\programing_study\src\hoge\he.exe
+# Link the executable C:\Users\genta\CLionProjects\programing_study\src\algo\merge.exe
 
-build C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe: C_EXECUTABLE_LINKER__he_Debug CMakeFiles/he.dir/src/hoge/he.c.obj
+build C$:/Users/genta/CLionProjects/programing_study/src/algo/merge.exe: CXX_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/src/algo/merge.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\he.dir
+  OBJECT_DIR = CMakeFiles\merge.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\hoge\he.exe
-  TARGET_IMPLIB = libhe.dll.a
-  TARGET_PDB = he.exe.dbg
+  TARGET_FILE = C:\Users\genta\CLionProjects\programing_study\src\algo\merge.exe
+  TARGET_IMPLIB = libmerge.dll.a
+  TARGET_PDB = merge.exe.dbg
 
 
 #############################################
@@ -239,17 +338,29 @@ build free_fall: phony C$:/Users/genta/CLionProjects/programing_study/src/2024su
 
 build free_fall.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe
 
-build he: phony C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
+build hello_world: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.exe
 
-build he.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
+build hello_world.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.exe
+
+build merge: phony C$:/Users/genta/CLionProjects/programing_study/src/algo/merge.exe
+
+build merge.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/algo/merge.exe
 
 build print_scanf: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe
 
 build print_scanf.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe
 
-build quadraticFormula: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe
+build printf_variable: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.exe
 
-build quadraticFormula.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe
+build printf_variable.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.exe
+
+build quadraticFormula: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.exe
+
+build quadraticFormula.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.exe
+
+build scope_variables: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.exe
+
+build scope_variables.exe: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.exe
 
 # =============================================================================
 # Folder targets.
@@ -259,7 +370,7 @@ build quadraticFormula.exe: phony C$:/Users/genta/CLionProjects/programing_study
 #############################################
 # Folder: C:/Users/genta/CLionProjects/programing_study/cmake-build-debug
 
-build all: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/quadraticFormula.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe C$:/Users/genta/CLionProjects/programing_study/src/hoge/he.exe
+build all: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/1/hello_world.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/2/printf_variable.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3/print_scanf.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/4/convC2F.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/5/scope_variables.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/6/quadraticFormula.exe C$:/Users/genta/CLionProjects/programing_study/src/2024summer/7/free_fall.exe C$:/Users/genta/CLionProjects/programing_study/src/algo/merge.exe
 
 # =============================================================================
 # Built-in targets
@@ -268,14 +379,14 @@ build all: phony C$:/Users/genta/CLionProjects/programing_study/src/2024summer/3
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/genta/CLionProjects/programing_study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePrintHelpers.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/genta/CLionProjects/programing_study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePrintHelpers.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/genta/CLionProjects/programing_study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePrintHelpers.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/genta/CLionProjects/programing_study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePrintHelpers.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
