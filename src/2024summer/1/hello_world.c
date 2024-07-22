@@ -6,7 +6,11 @@
  * @return Always 0
  */
 #include <stdio.h>
+#include <stdint.h>
+
 int main(){
+    int8_t a = 127+65;
     printf("Hello World!\n");
+    printf("%d", a);
     return 0;
 }

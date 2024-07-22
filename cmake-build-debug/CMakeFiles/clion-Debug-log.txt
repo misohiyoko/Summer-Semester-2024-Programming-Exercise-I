@@ -9,7 +9,7 @@ CMake Deprecation Warning:
 
 
 /Users/genta/Summer-Semester-2024-Programming-Exercise-I/src
--- SOURCE_FILES="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/1/hello_world.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/11/base_stat_of_array.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/12/oblique_projection.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/13/newton.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/18/simpson.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/2/printf_variable.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/3/print_scanf.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/4/convC2F.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/5/scope_variables.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/6/quadraticFormula.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/7/free_fall.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/counting/counting_sort.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/radix/radix_sort.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/search_tree/searchTree.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/stack_and_queue/StackAndQueue.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/te/te.c"
+-- SOURCE_FILES="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/1/hello_world.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/11/base_stat_of_array.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/12/oblique_projection.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/13/newton.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/18/simpson.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/19/12-ex1-LU.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/2/printf_variable.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/23/sort.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/3/print_scanf.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/4/convC2F.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/5/scope_variables.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/6/quadraticFormula.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/7/free_fall.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/binary_tree/binaryTree.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/chain_hash/chainHash.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/counting/counting_sort.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/list/list.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/radix/radix_sort.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/search_tree/searchTree.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/stack_and_queue/StackAndQueue.c;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/te/te.c"
 -- FILENAME_WE="hello_world"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/1"
 -- FILENAME_WE="base_stat_of_array"
@@ -20,8 +20,12 @@ CMake Deprecation Warning:
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/13"
 -- FILENAME_WE="simpson"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/18"
+-- FILENAME_WE="12-ex1-LU"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/19"
 -- FILENAME_WE="printf_variable"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/2"
+-- FILENAME_WE="sort"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/23"
 -- FILENAME_WE="print_scanf"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/3"
 -- FILENAME_WE="convC2F"
@@ -32,8 +36,14 @@ CMake Deprecation Warning:
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/6"
 -- FILENAME_WE="free_fall"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/2024summer/7"
+-- FILENAME_WE="binaryTree"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/binary_tree"
+-- FILENAME_WE="chainHash"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/chain_hash"
 -- FILENAME_WE="counting_sort"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/counting"
+-- FILENAME_WE="list"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/list"
 -- FILENAME_WE="radix_sort"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/radix"
 -- FILENAME_WE="searchTree"
@@ -44,9 +54,11 @@ CMake Deprecation Warning:
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/te"
 CMAKE_C_END
 /Users/genta/Summer-Semester-2024-Programming-Exercise-I/src
--- SOURCE_FILES_CXX="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/merge.cpp"
+-- SOURCE_FILES_CXX="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo/merge.cpp;/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/atc/atc.cpp"
 -- FILENAME_WE="merge"
 -- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/algo"
--- Configuring done (0.0s)
--- Generating done (0.0s)
+-- FILENAME_WE="atc"
+-- DIR="/Users/genta/Summer-Semester-2024-Programming-Exercise-I/src/atc"
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
 -- Build files have been written to: /Users/genta/Summer-Semester-2024-Programming-Exercise-I/cmake-build-debug
